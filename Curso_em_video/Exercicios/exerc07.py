@@ -1,5 +1,5 @@
-n1 = int(input('Digite a nota A1 do Aluno Cristyan: '))
-n2 = int(input('Digite a nota A2 do Aluno Cristyan: '))
+n1 = float(input('Digite a nota A1 do Aluno Cristyan: '))
+n2 = float(input('Digite a nota A2 do Aluno Cristyan: '))
 s = n1+n2
 m = s/2
 

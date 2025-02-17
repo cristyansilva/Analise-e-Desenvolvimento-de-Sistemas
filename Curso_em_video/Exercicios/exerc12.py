@@ -1,3 +1,4 @@
-valor_produto = float(input('Digite o preço do produto para ver o desconto: '))
+valor_produto = float(
+    input('Digite o preço do produto para ver o desconto: R$'))
 desconto_produto = valor_produto - (valor_produto * 0.05)  # ou 5/100
-print('O valor já aplicado o desconto ficaria: R$ {}'.format(desconto_produto))
+print('O valor já aplicado o desconto ficaria: R${}'.format(desconto_produto))
