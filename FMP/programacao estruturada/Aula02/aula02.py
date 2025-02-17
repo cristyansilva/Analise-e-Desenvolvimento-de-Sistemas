@@ -10,4 +10,4 @@ nome = input('Digite seu nome: ')
 idade = int(input('Digite sua idade: '))
 altura = float(input('Digite a sua altura: '))
 
-print(f'{nome}, minha altura é: {altura} e tenho {idade} anos')
+print(round(f'{nome}, minha altura é: {altura} e tenho {idade} anos.'))
