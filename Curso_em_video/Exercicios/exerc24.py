@@ -1,0 +1,5 @@
+city = str(input('Digite o nome de uma cidade: '))
+dividido = city.split()
+div = (dividido[0])
+print(city, ', Começa com Santo?')
+print('Santo' in div)
